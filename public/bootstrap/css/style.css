@@ -1,0 +1,34 @@
+/* Add Custom Styles */
+html{
+    scroll-behavior: smooth;
+}
+.bg-teal,.btn-teal{
+    background: linear-gradient(120deg,blueviolet,deeppink) !important;
+}
+.text-teal{
+    color: teal !important;
+}
+.carousel-item{
+    height: 90vh;
+    opacity: 0.9;
+}
+.carousel-item img{
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-caption{
+    bottom: 100px;
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 30px;
+    }
+    .col-md-4,.col-md-3{
+        margin-top: 30px;
+    }
+
+}

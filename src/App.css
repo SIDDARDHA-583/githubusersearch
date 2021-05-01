@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+
+.search-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 20px;
+}
+.search-header{
+
+}
+.search-text{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    margin: auto;
+}
+.form-control{
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+}
+.btn-sm{
+    background: #fcbcc4;
+    box-shadow: 5px 5px 5px grey , -5px -5px -5px grey ;
+}
+/* Image card */
+.img-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 25px;
+}
+.img-card img{
+    border-radius: 20px;
+}
+.img-title{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.img-para{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-success{
+    box-shadow: 0 0 5px black;
+    color: black;
+    margin-left: 55px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* profile details*/
+.profile-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 20px;
+}
+.p-text{
+    color: grey;
+    font-weight: bold;
+
+}
+.profile-badge {
+    box-shadow: 0 0 5px black;
+}
+/* Repos Card */
+.repo-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 20px;
+
+}
+.repo-header{
+
+}
+.repo-text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* media query for mobiles */
+@media only screen and (max-width: 576px) {
+    .search-card{
+        width: 100%;
+        margin: auto;
+    }
+    .img-card{
+        margin: auto;
+        margin-bottom: 30px;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
